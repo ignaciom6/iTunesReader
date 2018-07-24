@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AED495BACA32BDA8CBFD6D2 /* Pods_iTunesReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EDB68407B1089866C40543 /* Pods_iTunesReader.framework */; };
 		4F390FE821020B430005CEA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F390FE721020B430005CEA1 /* AppDelegate.swift */; };
-		4F390FEA21020B430005CEA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F390FE921020B430005CEA1 /* ViewController.swift */; };
 		4F390FED21020B430005CEA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F390FEB21020B430005CEA1 /* Main.storyboard */; };
 		4F390FEF21020B450005CEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F390FEE21020B450005CEA1 /* Assets.xcassets */; };
 		4F390FF221020B450005CEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F390FF021020B450005CEA1 /* LaunchScreen.storyboard */; };
+		4F390FFA21021F320005CEA1 /* MediaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F390FF921021F320005CEA1 /* MediaListViewController.swift */; };
+		4F391000210250D80005CEA1 /* MediaConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F390FFF210250D80005CEA1 /* MediaConnectionManager.swift */; };
+		4F391008210261880005CEA1 /* MediaConnectionServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F391007210261880005CEA1 /* MediaConnectionServiceManager.swift */; };
+		4F39100A210691AF0005CEA1 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F391009210691AF0005CEA1 /* NotificationExtension.swift */; };
+		4F39100C2106A3080005CEA1 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F39100B2106A3080005CEA1 /* MediaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F390FE421020B430005CEA1 /* iTunesReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EDB68407B1089866C40543 /* Pods_iTunesReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FA23B77F5D1EB23E9EC99D /* Pods-iTunesReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesReader/Pods-iTunesReader.debug.xcconfig"; sourceTree = "<group>"; };
 		4F390FE721020B430005CEA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F390FE921020B430005CEA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F390FEC21020B430005CEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F390FEE21020B450005CEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F390FF121020B450005CEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F390FF321020B450005CEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F390FF921021F320005CEA1 /* MediaListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListViewController.swift; sourceTree = "<group>"; };
+		4F390FFF210250D80005CEA1 /* MediaConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaConnectionManager.swift; sourceTree = "<group>"; };
+		4F3910032102601A0005CEA1 /* iTunesReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3910042102605C0005CEA1 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		4F391007210261880005CEA1 /* MediaConnectionServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaConnectionServiceManager.swift; sourceTree = "<group>"; };
+		4F391009210691AF0005CEA1 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		4F39100B2106A3080005CEA1 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
+		D8F63407BF204882B73F6F2E /* Pods-iTunesReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesReader/Pods-iTunesReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,39 +42,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AED495BACA32BDA8CBFD6D2 /* Pods_iTunesReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35FA5CB445191617F6469337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17FA23B77F5D1EB23E9EC99D /* Pods-iTunesReader.debug.xcconfig */,
+				D8F63407BF204882B73F6F2E /* Pods-iTunesReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4F390FDB21020B430005CEA1 = {
 			isa = PBXGroup;
 			children = (
 				4F390FE621020B430005CEA1 /* iTunesReader */,
-				4F390FE521020B430005CEA1 /* Products */,
+				35FA5CB445191617F6469337 /* Pods */,
+				E4198D39B4BA189913585508 /* Frameworks */,
+				4F3910032102601A0005CEA1 /* iTunesReader.app */,
 			);
-			sourceTree = "<group>";
-		};
-		4F390FE521020B430005CEA1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4F390FE421020B430005CEA1 /* iTunesReader.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4F390FE621020B430005CEA1 /* iTunesReader */ = {
 			isa = PBXGroup;
 			children = (
 				4F390FE721020B430005CEA1 /* AppDelegate.swift */,
-				4F390FE921020B430005CEA1 /* ViewController.swift */,
+				4F390FF921021F320005CEA1 /* MediaListViewController.swift */,
+				4F390FFF210250D80005CEA1 /* MediaConnectionManager.swift */,
+				4F391007210261880005CEA1 /* MediaConnectionServiceManager.swift */,
+				4F39100B2106A3080005CEA1 /* MediaTableViewCell.swift */,
 				4F390FEB21020B430005CEA1 /* Main.storyboard */,
 				4F390FEE21020B450005CEA1 /* Assets.xcassets */,
 				4F390FF021020B450005CEA1 /* LaunchScreen.storyboard */,
 				4F390FF321020B450005CEA1 /* Info.plist */,
+				4F3910042102605C0005CEA1 /* Bridging.h */,
+				4F391009210691AF0005CEA1 /* NotificationExtension.swift */,
 			);
 			path = iTunesReader;
+			sourceTree = "<group>";
+		};
+		E4198D39B4BA189913585508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09EDB68407B1089866C40543 /* Pods_iTunesReader.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F390FF621020B450005CEA1 /* Build configuration list for PBXNativeTarget "iTunesReader" */;
 			buildPhases = (
+				31DCBDFF45632F05C4225175 /* [CP] Check Pods Manifest.lock */,
 				4F390FE021020B430005CEA1 /* Sources */,
 				4F390FE121020B430005CEA1 /* Frameworks */,
 				4F390FE221020B430005CEA1 /* Resources */,
+				AC2DA8F573522D8596B6F511 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -81,7 +113,7 @@
 			);
 			name = iTunesReader;
 			productName = iTunesReader;
-			productReference = 4F390FE421020B430005CEA1 /* iTunesReader.app */;
+			productReference = 4F3910032102601A0005CEA1 /* iTunesReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +140,7 @@
 				Base,
 			);
 			mainGroup = 4F390FDB21020B430005CEA1;
-			productRefGroup = 4F390FE521020B430005CEA1 /* Products */;
+			productRefGroup = 4F390FDB21020B430005CEA1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -130,13 +162,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31DCBDFF45632F05C4225175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunesReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2DA8F573522D8596B6F511 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iTunesReader/Pods-iTunesReader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesReader/Pods-iTunesReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F390FE021020B430005CEA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F390FEA21020B430005CEA1 /* ViewController.swift in Sources */,
+				4F39100A210691AF0005CEA1 /* NotificationExtension.swift in Sources */,
 				4F390FE821020B430005CEA1 /* AppDelegate.swift in Sources */,
+				4F391000210250D80005CEA1 /* MediaConnectionManager.swift in Sources */,
+				4F391008210261880005CEA1 /* MediaConnectionServiceManager.swift in Sources */,
+				4F39100C2106A3080005CEA1 /* MediaTableViewCell.swift in Sources */,
+				4F390FFA21021F320005CEA1 /* MediaListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +353,11 @@
 		};
 		4F390FF721020B450005CEA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FA23B77F5D1EB23E9EC99D /* Pods-iTunesReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D23847FTP;
 				INFOPLIST_FILE = iTunesReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +365,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ignaciom6.iTunesReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iTunesReader/Bridging.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,9 +373,11 @@
 		};
 		4F390FF821020B450005CEA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F63407BF204882B73F6F2E /* Pods-iTunesReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D23847FTP;
 				INFOPLIST_FILE = iTunesReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +385,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ignaciom6.iTunesReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iTunesReader/Bridging.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
